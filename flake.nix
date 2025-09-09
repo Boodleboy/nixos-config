@@ -9,10 +9,21 @@
 
 
   outputs = { self, nixpkgs, home-manager, sops-nix, ... }: {
-    nixosConfigurations.nixos-test = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.mini-pc = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
         ./configuration.nix
+	./hardware/mini-pc.nix
+	./specific/mini-pc.nix
+        home-manager.nixosModules.home-manager
+	sops-nix.nixosModules.sops
+      ];
+    };
+    nixosConfigurations.desktop = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      modules = [
+        ./configuration.nix
+	./specific/desktop.nix
         home-manager.nixosModules.home-manager
 	sops-nix.nixosModules.sops
       ];
