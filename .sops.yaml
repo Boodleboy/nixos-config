@@ -1,1 +1,6 @@
-age10mk9a3s02jzhm7mwfgk6www7mggvla5l4gvqd4mzzz7jejc7zqdqzcu9mh
+creation_rules:
+  - path_regex: 'secrets\.yml$'
+    #encrypted_regex: '^(data|stringData)$'
+    age: >-
+      age10mk9a3s02jzhm7mwfgk6www7mggvla5l4gvqd4mzzz7jejc7zqdqzcu9mh,
+      age18m5nsuzwa4afftyzxam2rv7rl205uhrajqxzslav8qqg4d7m8gzsf2v7c4
