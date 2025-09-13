@@ -14,7 +14,7 @@
       modules = [
         ./configuration.nix
 	./hardware/mini-pc.nix
-	./specific/mini-pc.nix
+	#./specific/mini-pc.nix
         home-manager.nixosModules.home-manager
 	sops-nix.nixosModules.sops
       ];
@@ -23,6 +23,7 @@
       system = "x86_64-linux";
       modules = [
         ./configuration.nix
+	./hardware/desktop.nix
 	./specific/desktop.nix
         home-manager.nixosModules.home-manager
 	sops-nix.nixosModules.sops

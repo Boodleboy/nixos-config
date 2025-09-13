@@ -6,7 +6,6 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
       ./sops.nix
       ./jellyfin.nix
       ./tailscale.nix
@@ -69,8 +68,8 @@
 
   # Kodi variants?
   services.xserver.desktopManager.kodi.enable = true;
-  #programs.kodi-wayland.enable = true;
-  #programs.kodi-gbm.enable = true;
+  #services.xserver.desktopManager.kodi-wayland.enable = true;
+  #services.xserver.desktopManager.kodi-gbm.enable = true;
 
   # Default WM
   #services.displayManager.defaultSession = "hyprland";
@@ -137,6 +136,9 @@
     neofetch
     sops
     git
+    wofi
+    waybar
+    hyprpaper
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
