@@ -4,7 +4,10 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     home-manager.url = "github:nix-community/home-manager/release-25.05";
-    sops-nix.url = "github:Mic92/sops-nix";
+    sops-nix = {
+      url = "github:Mic92/sops-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
 
@@ -25,9 +28,11 @@
         ./configuration.nix
 	./hardware/desktop.nix
 	./specific/desktop.nix
+	./ssh-keys.nix
         home-manager.nixosModules.home-manager
 	sops-nix.nixosModules.sops
       ];
+      specialArgs = { inherit self; };
     };
   };
 }

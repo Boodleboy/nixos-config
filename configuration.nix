@@ -54,6 +54,10 @@
       userName = "boodleboy";
     };
   };
+  home-manager.users.root = {
+    home.stateVersion = "25.05";
+    programs.zsh.enable = true;
+  };
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
@@ -152,7 +156,7 @@
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
+  services.openssh.enable = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
