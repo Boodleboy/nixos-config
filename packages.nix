@@ -17,9 +17,11 @@
     git
     wofi
     waybar
-    hyprpaper
     age
+    hyprpaper
     hyprpanel
+    btop
+    fastfetch
   ];
 
   fonts.packages = with pkgs; [
