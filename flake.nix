@@ -28,7 +28,6 @@
         ./configuration.nix
 	./hardware/desktop.nix
 	./specific/desktop.nix
-	./ssh-keys.nix
         home-manager.nixosModules.home-manager
 	sops-nix.nixosModules.sops
       ];
@@ -40,7 +39,6 @@
         ./configuration.nix
 	./hardware/laptop.nix
 	#./specific/desktop.nix
-	./ssh-keys.nix
         home-manager.nixosModules.home-manager
 	sops-nix.nixosModules.sops
       ];
