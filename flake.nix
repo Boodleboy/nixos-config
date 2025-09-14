@@ -34,5 +34,17 @@
       ];
       specialArgs = { inherit self; };
     };
+    nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      modules = [
+        ./configuration.nix
+	./hardware/laptop.nix
+	#./specific/desktop.nix
+	./ssh-keys.nix
+        home-manager.nixosModules.home-manager
+	sops-nix.nixosModules.sops
+      ];
+      specialArgs = { inherit self; };
+    };
   };
 }
