@@ -19,5 +19,12 @@
     waybar
     hyprpaper
     age
+    hyprpanel
+  ];
+
+  fonts.packages = with pkgs; [
+    noto-fonts
+    noto-fonts-emoji
+    nerd-fonts.symbols-only
   ];
 }
