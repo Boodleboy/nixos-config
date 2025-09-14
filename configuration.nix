@@ -6,7 +6,6 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./sops.nix
     ];
 
   nix.settings.experimental-features = ["nix-command" "flakes" ];
