@@ -42,20 +42,6 @@
     LC_TIME = "en_US.UTF-8";
   };
 
-  # Home-Manager config
-  home-manager.users.jacob = {
-    home.stateVersion = "25.05";
-    programs.zsh.enable = true;
-    programs.git = {
-      enable = true;
-      userName = "boodleboy";
-    };
-  };
-  home-manager.users.root = {
-    home.stateVersion = "25.05";
-    programs.zsh.enable = true;
-  };
-
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
