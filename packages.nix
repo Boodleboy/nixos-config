@@ -22,6 +22,7 @@
     hyprpanel
     btop
     fastfetch
+    discord
   ];
 
   fonts.packages = with pkgs; [
