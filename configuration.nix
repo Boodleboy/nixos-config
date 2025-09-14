@@ -6,6 +6,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+      ./packages.nix
     ];
 
   nix.settings.experimental-features = ["nix-command" "flakes" ];
@@ -123,24 +124,6 @@
   nixpkgs.config.allowUnfree = true;
 
   
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    neovim 
-    kitty
-    alacritty
-    foot
-    wget
-    alsa-utils
-    htop
-    neofetch
-    sops
-    git
-    wofi
-    waybar
-    hyprpaper
-    age
-  ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
