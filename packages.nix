@@ -23,6 +23,14 @@
     btop
     fastfetch
     discord
+    gcc
+    ast-grep
+    ripgrep
+    fzf
+    lazygit
+    go
+    tree-sitter
+    ghostscript
   ];
 
   fonts.packages = with pkgs; [
