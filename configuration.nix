@@ -11,6 +11,9 @@
 
   nix.settings.experimental-features = ["nix-command" "flakes" ];
 
+# enable non-nix packaes
+  programs.nix-ld.enable = true;
+
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;

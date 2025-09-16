@@ -5,6 +5,7 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+    nix-search-cli
     neovim 
     kitty
     alacritty
@@ -24,6 +25,7 @@
     fastfetch
     discord
     gcc
+    binutils
     ast-grep
     ripgrep
     fzf
@@ -31,6 +33,11 @@
     go
     tree-sitter
     ghostscript
+    gnumake
+    cmake
+    llvmPackages_21.lld
+    llvmPackages_21.llvm
+    llvmPackages_21.clang
   ];
 
   fonts.packages = with pkgs; [
