@@ -28,6 +28,7 @@
       modules = [
         ./configuration.nix
 	./hardware/laptop.nix
+	./bluetooth.nix
 	#./specific/desktop.nix
       ];
     };
