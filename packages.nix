@@ -18,6 +18,7 @@
     git
     wofi
     waybar
+    swaynotificationcenter
     age
     hyprpaper
     hyprpanel
