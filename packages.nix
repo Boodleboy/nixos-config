@@ -19,6 +19,7 @@
     wofi
     waybar
     swaynotificationcenter
+    swayosd
     age
     hyprpaper
     hyprpanel
