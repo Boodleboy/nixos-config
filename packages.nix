@@ -20,6 +20,11 @@
     waybar
     swaynotificationcenter
     swayosd
+    libnotify
+    procps
+    sysstat
+    lm_sensors
+    acpi
     age
     hyprpaper
     hyprpanel
