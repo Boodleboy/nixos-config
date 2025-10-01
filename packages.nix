@@ -17,6 +17,8 @@
     neofetch
     sops
     git
+    qpwgraph
+    pwvucontrol
     wofi
     waybar
     swaynotificationcenter
