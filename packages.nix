@@ -11,6 +11,7 @@
     alacritty
     foot
     wget
+    jq
     alsa-utils
     htop
     neofetch
@@ -28,6 +29,11 @@
     age
     hyprpaper
     hyprpanel
+    wl-clipboard
+    wl-clip-persist
+    clipse
+    eww
+    socat
     btop
     fastfetch
     discord
