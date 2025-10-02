@@ -50,6 +50,11 @@
     ghostscript
     gnumake
     cmake
+    ninja
+    python3
+    cargo
+    rustc
+    rust-analyzer
     llvmPackages_21.lld
     llvmPackages_21.llvm
     llvmPackages_21.clang
