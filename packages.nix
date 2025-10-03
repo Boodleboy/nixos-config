@@ -21,6 +21,7 @@
     pwvucontrol
     wofi
     waybar
+    ashell
     swaynotificationcenter
     swayosd
     libnotify
@@ -31,6 +32,7 @@
     age
     hyprpaper
     hyprpanel
+    kdePackages.dolphin
     wl-clipboard
     wl-clip-persist
     clipse
@@ -55,6 +57,7 @@
     cargo
     rustc
     rust-analyzer
+    ccache
     llvmPackages_21.lld
     llvmPackages_21.llvm
     llvmPackages_21.clang
