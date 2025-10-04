@@ -76,6 +76,9 @@
   # Enable tlp daemon
   services.tlp.enable = true;
 
+  # Enable Firmware updater
+  services.fwupd.enable = true;
+
   # Enable sound with pipewire.
   services.pulseaudio.enable = false;
   security.rtkit.enable = true;

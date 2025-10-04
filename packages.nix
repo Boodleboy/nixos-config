@@ -29,6 +29,9 @@
     sysstat
     lm_sensors
     acpi
+    pciutils
+    smartmontools
+    fwupd
     age
     hyprpaper
     hyprpanel
@@ -64,6 +67,7 @@
   ];
 
   fonts.packages = with pkgs; [
+    font-awesome
     noto-fonts
     noto-fonts-emoji
     nerd-fonts.symbols-only
