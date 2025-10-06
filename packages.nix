@@ -54,6 +54,7 @@
     tree-sitter
     ghostscript
     gnumake
+    cunit
     cmake
     ninja
     python3
