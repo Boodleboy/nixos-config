@@ -12,6 +12,7 @@
     foot
     wget
     jq
+    fd
     alsa-utils
     htop
     neofetch
@@ -50,14 +51,25 @@
     ripgrep
     fzf
     lazygit
+    lua51Packages.lua
+    nodejs_24
+    zulu8
     go
+    julia
+    unzip
     tree-sitter
+    luajitPackages.luarocks_bootstrap
     ghostscript
     gnumake
     cunit
     cmake
     ninja
-    python3
+    tectonic
+    mermaid-cli
+    sqlite
+    python313
+    python313Packages.pip
+    python313Packages.pynvim
     cargo
     rustc
     rust-analyzer
