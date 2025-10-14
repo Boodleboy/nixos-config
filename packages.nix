@@ -77,6 +77,8 @@
     llvmPackages_21.lld
     llvmPackages_21.llvm
     llvmPackages_21.clang
+    lldb_21
+    clang-tools
   ];
 
   fonts.packages = with pkgs; [
