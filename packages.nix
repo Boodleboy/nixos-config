@@ -79,6 +79,12 @@
     llvmPackages_21.clang
     lldb_21
     clang-tools
+    aider-chat
+    opencode
+    codex
+    gemini-cli
+    exfat
+    partclone
   ];
 
   fonts.packages = with pkgs; [
